@@ -36,6 +36,10 @@
         <CfgParent>Base</CfgParent>
         <Base>true</Base>
         <DCC_DcuOutput>..\Build\$(Platform)\Release\Dcu</DCC_DcuOutput>
+        <DCC_ExeOutput>..\Bin</DCC_ExeOutput>
+        <DCC_DcpOutput>..\Lib</DCC_DcpOutput>
+        <DCC_Namespace>System;System.Win;Winapi;Vcl;Vcl.Imaging;Vcl.Samples;Data;Data.Win;Datasnap;Datasnap.Win;Web;Web.Win;Xml;Xml.Win;Soap;Soap.Win;Bde;$(DCC_Namespace)</DCC_Namespace>
+        <DCC_UnitAlias>Types=System.Types;Windows=Winapi.Windows;Messages=Winapi.Messages;Classes=System.Classes;SysUtils=System.SysUtils;Variants=System.Variants;TypInfo=System.TypInfo;SyncObjs=System.SyncObjs;Math=System.Math;DateUtils=System.DateUtils;StrUtils=System.StrUtils;IniFiles=System.IniFiles;Registry=System.Win.Registry;ComObj=System.Win.ComObj;Controls=Vcl.Controls;Graphics=Vcl.Graphics;Forms=Vcl.Forms;Dialogs=Vcl.Dialogs;StdCtrls=Vcl.StdCtrls;ExtCtrls=Vcl.ExtCtrls;ComCtrls=Vcl.ComCtrls;Menus=Vcl.Menus;ImgList=Vcl.ImgList;Buttons=Vcl.Buttons;ActnList=Vcl.ActnList;ActiveX=Winapi.ActiveX;CommCtrl=Winapi.CommCtrl;UxTheme=Winapi.UxTheme;ShellAPI=Winapi.ShellAPI;ShlObj=Winapi.ShlObj;MMSystem=Winapi.MMSystem;$(DCC_UnitAlias)</DCC_UnitAlias>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Base)'!=''">
         <SanitizedProjectName>QRoBOT</SanitizedProjectName>
