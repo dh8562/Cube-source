@@ -1,0 +1,25 @@
+# Delphi compiler and linker output
+*.dcu
+*.exe
+*.map
+*.drc
+*.rsm
+*.stat
+*.tds
+
+# Delphi IDE user and local state
+*.local
+*.identcache
+*.tvsconfig
+*.vlb
+
+# Delphi history and backup files
+__history__/
+*.~*~
+*.bak
+
+# Common temporary files
+*.tmp
+*.log
+Thumbs.db
+Desktop.ini

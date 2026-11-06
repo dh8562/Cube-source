@@ -1,0 +1,21 @@
+﻿TfoChannels
+AccessPath,Action,Address,Address2,BrowseInfo,Category,ChannelKind,DataType,DeadBand,DeadBandType,Device,ErrorCode,InvertBoolean,Max,Min,Name,DisplayName,Permission,PrecisionDigits,ScaledMax,ScaledMin,Tag,Value,ZDescription
+
+; Digital Input
+"","","5000","1","3","PLC Input","ckInput","dtWord","0","dbtNone","DTSControl","-1","False","0","0","I_FLAG_AREA_0","","cpReadWrite","0","0","0","0","0",""
+"","","5000","1","3","PLC Input","ckInput","dtBoolean","0","dbtNone","DTSControl","-1","False","0","0","I_CPU_RUN","","cpReadWrite","0","0","0","0","False",""
+"","","5000","1","3","PLC Input","ckInput","dtBoolean","0","dbtNone","DTSControl","-1","False","0","0","I_ALARM_STATUS","","cpReadWrite","0","0","0","1","False",""
+"","","5000","1","3","PLC Input","ckInput","dtBoolean","0","dbtNone","DTSControl","-1","False","0","0","I_EMERGENCY_STATUS","","cpReadWrite","0","0","0","2","False",""
+"","","5000","1","3","PLC Input","ckInput","dtBoolean","0","dbtNone","DTSControl","-1","False","0","0","I_FAN_ON","","cpReadWrite","0","0","0","3","False",""
+
+"","","5001","1","3","PLC Input","ckInput","dtWord","0","dbtNone","DTSControl","-1","False","0","0","I_FLAG_AREA_1","","cpReadWrite","0","0","0","0","0",""
+"","","5001","1","3","PLC Input","ckInput","dtBoolean","0","dbtNone","DTSControl","-1","False","0","0","I_PLC_POWER_LIFE_TIME_LOW_ALARM","","cpReadWrite","0","0","0","0","False",""
+"","","5001","1","3","PLC Input","ckInput","dtBoolean","0","dbtNone","DTSControl","-1","False","0","0","I_SMPS01_BATTERY_LOW_ALARM","","cpReadWrite","0","0","0","1","False",""
+"","","5001","1","3","PLC Input","ckInput","dtBoolean","0","dbtNone","DTSControl","-1","False","0","0","I_SMPS01_LIFE_TIME_LOW_ALARM","","cpReadWrite","0","0","0","2","False",""
+"","","5001","1","3","PLC Input","ckInput","dtBoolean","0","dbtNone","DTSControl","-1","False","0","0","I_SMPS02_BATTERY_LOW_ALARM","","cpReadWrite","0","0","0","3","False",""
+"","","5001","1","3","PLC Input","ckInput","dtBoolean","0","dbtNone","DTSControl","-1","False","0","0","I_SMPS02_LIFE_TIME_LOW_ALARM","","cpReadWrite","0","0","0","4","False",""
+"","","5001","1","3","PLC Input","ckInput","dtBoolean","0","dbtNone","DTSControl","-1","False","0","0","I_DOOR_OPEN_01_ALARM","","cpReadWrite","0","0","0","5","False",""
+
+
+; Digital Output
+;"","","-1","-1","-1","Digital Output","ckOutput","dtBoolean","0","dbtNone","DIODevice","-1","False","0","0","O_OUTPUT","","cpReadWrite","0","0","0","0","False",""

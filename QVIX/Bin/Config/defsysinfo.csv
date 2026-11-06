@@ -1,0 +1,47 @@
+﻿TfoChannels
+Device,AccessPath,Action,Address,BrowseInfo,Category,ChannelKind,DataType,ErrorCode,InvertBoolean,Max,Min,Name,DisplayName,Permission,PrecisionDigits,Tag,Value,ScaledMax,ScaledMin,ZDescription
+
+"","","","-1","-1","Start-Up","ckVirtual","dtBoolean","-1","False","0","0","STARTUP_WITH_HW","","cpReadWrite","0","0","False","0","0",""
+"","","","-1","-1","Start-Up","ckVirtual","dtInteger","-1","False","0","0","STARTUP_WITH_MACHINE_KIND","","cpReadWrite","0","0","0","0","0","0:TI, 1:CU"
+
+"","","","-1","-1","General","ckVirtual","dtInteger","-1","False","0","0","ACTIVE_LANGUAGE","","cpReadWrite","0","0","2","0","0","0:English;1:Korean;2:Chiness"
+"","","","-1","-1","General","ckVirtual","dtString","-1","False","0","0","JOB_PATH","","cpReadWrite","0","0","","0","0",""
+"","","","-1","-1","General","ckVirtual","dtString","-1","False","0","0","LOG_PATH","","cpReadWrite","0","0","","0","0",""
+"","","","-1","-1","General","ckVirtual","dtString","-1","False","0","0","MACHINE_NAME","","cpReadWrite","0","0","DTS","0","0",""
+"","","","-1","-1","General","ckVirtual","dtString","-1","False","0","0","MACHINE_ID","","cpReadWrite","0","0","1234","0","0",""
+"","","","-1","-1","General","ckVirtual","dtString","-1","False","0","0","PRODUCT_LOG_FILE_NAME","","cpReadWrite","0","0","%YEAR%%MONTH%%DAY%-UP.CSV","0","0",""
+"","","","-1","-1","General","ckVirtual","dtString","-1","False","0","0","PRODUCT_LOG_FILE_PATH","","cpReadWrite","0","0","D:\DATA\","0","0",""
+
+"","","","-1","-1","Communication","ckVirtual","dtString","-1","False","0","0","DTS_CONTROL_HOST","","cpReadWrite","0","0","127.0.0.1","0","0","Modbus TCP server address"
+"","","","-1","-1","Communication","ckVirtual","dtString","-1","False","0","0","DTS_CONTROL_PORT","","cpReadWrite","0","0","5000","0","0","Modbus TCP port"
+"","","","-1","-1","Communication","ckVirtual","dtInteger","-1","False","65535","1","DTS_PIPE_001_START_ADDRESS","","cpReadWrite","0","0","6000","0","0","Pipe 1 Modbus start address"
+"","","","-1","-1","Communication","ckVirtual","dtInteger","-1","False","65535","1","DTS_PIPE_001_READ_QUANTITY","","cpReadWrite","0","0","2000","0","0","Pipe 1 total word count"
+"","","","-1","-1","Communication","ckVirtual","dtInteger","-1","False","65535","1","DTS_PIPE_002_START_ADDRESS","","cpReadWrite","0","0","8000","0","0","Pipe 2 Modbus start address"
+"","","","-1","-1","Communication","ckVirtual","dtInteger","-1","False","65535","1","DTS_PIPE_002_READ_QUANTITY","","cpReadWrite","0","0","2000","0","0","Pipe 2 total word count"
+"","","","-1","-1","Communication","ckVirtual","dtInteger","-1","False","65535","1","DTS_PIPE_003_START_ADDRESS","","cpReadWrite","0","0","10000","0","0","Pipe 3 Modbus start address"
+"","","","-1","-1","Communication","ckVirtual","dtInteger","-1","False","65535","1","DTS_PIPE_003_READ_QUANTITY","","cpReadWrite","0","0","2000","0","0","Pipe 3 total word count"
+"","","","-1","-1","Communication","ckVirtual","dtInteger","-1","False","65535","1","DTS_PIPE_004_START_ADDRESS","","cpReadWrite","0","0","12000","0","0","Pipe 4 Modbus start address"
+"","","","-1","-1","Communication","ckVirtual","dtInteger","-1","False","65535","1","DTS_PIPE_004_READ_QUANTITY","","cpReadWrite","0","0","2000","0","0","Pipe 4 total word count"
+"","","","-1","-1","Communication","ckVirtual","dtInteger","-1","False","65535","1","DTS_PIPE_005_START_ADDRESS","","cpReadWrite","0","0","14000","0","0","Pipe 5 Modbus start address"
+"","","","-1","-1","Communication","ckVirtual","dtInteger","-1","False","65535","1","DTS_PIPE_005_READ_QUANTITY","","cpReadWrite","0","0","2000","0","0","Pipe 5 total word count"
+"","","","-1","-1","Communication","ckVirtual","dtInteger","-1","False","65535","1","DTS_PIPE_006_START_ADDRESS","","cpReadWrite","0","0","16000","0","0","Pipe 6 Modbus start address"
+"","","","-1","-1","Communication","ckVirtual","dtInteger","-1","False","65535","1","DTS_PIPE_006_READ_QUANTITY","","cpReadWrite","0","0","2000","0","0","Pipe 6 total word count"
+"","","","-1","-1","Communication","ckVirtual","dtInteger","-1","False","65535","1","DTS_PIPE_007_START_ADDRESS","","cpReadWrite","0","0","18000","0","0","Pipe 7 Modbus start address"
+"","","","-1","-1","Communication","ckVirtual","dtInteger","-1","False","65535","1","DTS_PIPE_007_READ_QUANTITY","","cpReadWrite","0","0","2000","0","0","Pipe 7 total word count"
+"","","","-1","-1","Communication","ckVirtual","dtInteger","-1","False","65535","1","DTS_PIPE_008_START_ADDRESS","","cpReadWrite","0","0","20000","0","0","Pipe 8 Modbus start address"
+"","","","-1","-1","Communication","ckVirtual","dtInteger","-1","False","65535","1","DTS_PIPE_008_READ_QUANTITY","","cpReadWrite","0","0","2000","0","0","Pipe 8 total word count"
+"","","","-1","-1","Communication","ckVirtual","dtInteger","-1","False","65535","1","DTS_PIPE_009_START_ADDRESS","","cpReadWrite","0","0","22000","0","0","Pipe 9 Modbus start address"
+"","","","-1","-1","Communication","ckVirtual","dtInteger","-1","False","65535","1","DTS_PIPE_009_READ_QUANTITY","","cpReadWrite","0","0","2000","0","0","Pipe 9 total word count"
+"","","","-1","-1","Communication","ckVirtual","dtInteger","-1","False","65535","1","DTS_PIPE_010_START_ADDRESS","","cpReadWrite","0","0","24000","0","0","Pipe 10 Modbus start address"
+"","","","-1","-1","Communication","ckVirtual","dtInteger","-1","False","65535","1","DTS_PIPE_010_READ_QUANTITY","","cpReadWrite","0","0","2000","0","0","Pipe 10 total word count"
+
+
+;Option
+"","","","-1","-1","Option","ckVirtual","dtBoolean","-1","False","0","0","USE_VIRTUAL_RUNNING","","cpReadWrite","0","0","False","0","0",""
+"","","","-1","-1","Option","ckVirtual","dtBoolean","-1","False","0","0","USE_IDLE_RUNNING","","cpReadWrite","0","0","False","0","0",""
+"","","","-1","-1","Option","ckVirtual","dtBoolean","-1","False","0","0","USE_ALWAYS_LOGIN","","cpReadWrite","0","0","False","0","0",""
+
+"","","","-1","-1","Setup","ckVirtual","dtInteger","-1","False","0","0","REPORT_SAVE_INTERVAL_MINUTES","","cpReadWrite","0","0","30","0","0",""
+
+;Timer
+"","","","-1","-1","Timer","ckVirtual","dtDouble","-1","False","0","0","TMR_ONOFF_TIMEOUT","","cpReadWrite","0","0","5","0","0","sec"

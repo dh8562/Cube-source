@@ -1,0 +1,160 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{EBD96E37-FCF6-4BA8-91FD-C86F2D474B5D}</ProjectGuid>
+        <ProjectVersion>19.1</ProjectVersion>
+        <MainSource>QRoBOT.dpr</MainSource>
+        <Base>True</Base>
+        <Config Condition="'$(Config)'==''">Debug</Config>
+        <Platform Condition="'$(Platform)'==''">Win64</Platform>
+        <FrameworkType>VCL</FrameworkType>
+        <AppType>Application</AppType>
+        <TargetedPlatforms>3</TargetedPlatforms>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Config)'=='Debug' or '$(Cfg_1)'!=''">
+        <Cfg_1>true</Cfg_1>
+        <CfgParent>Base</CfgParent>
+        <Base>true</Base>
+        <DCC_DcuOutput>..\Build\$(Platform)\Debug\Dcu</DCC_DcuOutput>
+    </PropertyGroup>
+    <PropertyGroup Condition="('$(Platform)'=='Win32' and '$(Cfg_1)'=='true') or '$(Cfg_1_Win32)'!=''">
+        <Cfg_1_Win32>true</Cfg_1_Win32>
+        <CfgParent>Cfg_1</CfgParent>
+        <Cfg_1>true</Cfg_1>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="('$(Platform)'=='Win64' and '$(Cfg_1)'=='true') or '$(Cfg_1_Win64)'!=''">
+        <Cfg_1_Win64>true</Cfg_1_Win64>
+        <CfgParent>Cfg_1</CfgParent>
+        <Cfg_1>true</Cfg_1>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Config)'=='Release' or '$(Cfg_2)'!=''">
+        <Cfg_2>true</Cfg_2>
+        <CfgParent>Base</CfgParent>
+        <Base>true</Base>
+        <DCC_DcuOutput>..\Build\$(Platform)\Release\Dcu</DCC_DcuOutput>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Base)'!=''">
+        <SanitizedProjectName>QRoBOT</SanitizedProjectName>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Cfg_1_Win32)'!=''">
+        <BT_BuildType>Debug</BT_BuildType>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Cfg_1_Win64)'!=''">
+        <DCC_UnitSearchPath>..\..\Common\Core;..\..\Common\UI;..\..\Common\Communication\Core;..\..\Common\Communication\Devices;C:\Program Files (x86)\Raize\CS5\Lib\RX10.2\Win64;D:\source\vcl10_2\DevExpress\VCL\Library\RS25\Win64;D:\source\vcl10_2\factoryon\Build\Win64\Debug\Dcp;D:\source\vcl10_2\factoryon\Build\Win64\Debug\Dcu;D:\source\vcl10_2\factoryon\Source;D:\source\vcl10_2\OmniThreadLibrary-3.07.7;D:\source\vcl10_2\OmniThreadLibrary-3.07.7\src</DCC_UnitSearchPath>
+        <DCC_Namespace>System;System.Win;Winapi;Vcl;Vcl.Imaging;Vcl.Samples;Data;Data.Win;Datasnap;Datasnap.Win;Web;Web.Win;Xml;Xml.Win;Soap;Soap.Win;Bde;$(DCC_Namespace)</DCC_Namespace>
+        <DCC_UnitAlias>Types=System.Types;Windows=Winapi.Windows;Messages=Winapi.Messages;Classes=System.Classes;SysUtils=System.SysUtils;Variants=System.Variants;TypInfo=System.TypInfo;SyncObjs=System.SyncObjs;Math=System.Math;DateUtils=System.DateUtils;StrUtils=System.StrUtils;IniFiles=System.IniFiles;Registry=System.Win.Registry;ComObj=System.Win.ComObj;Controls=Vcl.Controls;Graphics=Vcl.Graphics;Forms=Vcl.Forms;Dialogs=Vcl.Dialogs;StdCtrls=Vcl.StdCtrls;ExtCtrls=Vcl.ExtCtrls;ComCtrls=Vcl.ComCtrls;Menus=Vcl.Menus;ImgList=Vcl.ImgList;Buttons=Vcl.Buttons;ActnList=Vcl.ActnList;ActiveX=Winapi.ActiveX;CommCtrl=Winapi.CommCtrl;UxTheme=Winapi.UxTheme;ShellAPI=Winapi.ShellAPI;ShlObj=Winapi.ShlObj;MMSystem=Winapi.MMSystem;$(DCC_UnitAlias)</DCC_UnitAlias>
+        <BT_BuildType>Debug</BT_BuildType>
+        <DCC_ExeOutput>..\bin</DCC_ExeOutput>
+        <DCC_DcpOutput>..\lib</DCC_DcpOutput>
+        <VerInfo_Locale>1042</VerInfo_Locale>
+        <Manifest_File>(None)</Manifest_File>
+    </PropertyGroup>
+    <ItemGroup>
+        <DelphiCompile Include="$(MainSource)">
+            <MainSource>MainSource</MainSource>
+        </DelphiCompile>
+        <DCCReference Include="qvMain.pas">
+            <Form>frmMain</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="fOperation.pas">
+            <Form>frmOperation</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="fStage.pas">
+            <Form>frmStage</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="fSpectrometer.pas">
+            <Form>frmSpectrometer</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="fPeakDetectEdit.pas">
+            <Form>frmPeakDetectEdit</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="fPlasma.pas">
+            <Form>frmPlasma</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="fRecipes.pas">
+            <Form>frmRecipes</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="fAlarms.pas">
+            <Form>frmAlarms</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="fLogs.pas">
+            <Form>frmLogs</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="fSettings.pas">
+            <Form>frmSettings</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\..\Common\Communication\Core\uCommBase.pas"/>
+        <DCCReference Include="..\..\Common\Communication\Core\uSerialDevice.pas"/>
+        <DCCReference Include="..\..\Common\Communication\Core\foSyncObjs.pas"/>
+        <DCCReference Include="..\..\Common\Communication\Core\foModbusDevice.pas"/>
+        <DCCReference Include="..\..\Common\Communication\Core\uModbusRtuDevice.pas"/>
+        <DCCReference Include="..\..\Common\Communication\Devices\uCommZMotion.pas"/>
+        <DCCReference Include="..\..\Common\Communication\Devices\uCommSpectrometer.pas"/>
+        <DCCReference Include="..\..\Common\Communication\Devices\uCommPlasma.pas"/>
+        <DCCReference Include="..\..\Common\Communication\Devices\uCommWaterSensors.pas"/>
+        <DCCReference Include="..\..\Common\Communication\Devices\uCommLevelSensor.pas"/>
+        <DCCReference Include="..\..\Common\Communication\Devices\uCommDeferredDevice.pas"/>
+        <DCCReference Include="..\..\Common\Communication\Devices\uCommRemoteIO.pas"/>
+        <DCCReference Include="..\..\Common\Communication\Devices\uCommMFM.pas"/>
+        <DCCReference Include="..\..\Common\Communication\Devices\uCommStageController.pas"/>
+        <DCCReference Include="uCommunicationManager.pas"/>
+        <DCCReference Include="..\..\Common\UI\uTouchInput.pas"/>
+        <DCCReference Include="..\..\Common\Core\uLogger.pas"/>
+        <DCCReference Include="..\..\Common\UI\fNumericKBD.pas">
+            <Form>frmNumericKBD</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\..\Common\UI\fTouchKBD.pas">
+            <Form>frmTouchKBD</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <BuildConfiguration Include="Release">
+            <Key>Cfg_2</Key>
+            <CfgParent>Base</CfgParent>
+        </BuildConfiguration>
+        <BuildConfiguration Include="Base">
+            <Key>Base</Key>
+        </BuildConfiguration>
+        <BuildConfiguration Include="Debug">
+            <Key>Cfg_1</Key>
+            <CfgParent>Base</CfgParent>
+        </BuildConfiguration>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Delphi.Personality.12</Borland.Personality>
+        <Borland.ProjectType>VCLApplication</Borland.ProjectType>
+        <BorlandProject>
+            <Delphi.Personality>
+                <Source>
+                    <Source Name="MainSource">QRoBOT.dpr</Source>
+                </Source>
+                <Excluded_Packages>
+                    <Excluded_Packages Name="C:\Users\Public\Documents\Embarcadero\Studio\19.0\Bpl\dclcxGridEMFRS25.bpl">ExpressEntityMapping Framework Extension for ExpressQuantumGrid by Developer Express Inc.</Excluded_Packages>
+                    <Excluded_Packages Name="$(BDSBIN)\dcloffice2k250.bpl">Microsoft Office 2000 Sample Automation Server Wrapper Components</Excluded_Packages>
+                    <Excluded_Packages Name="$(BDSBIN)\dclofficexp250.bpl">Microsoft Office XP Sample Automation Server Wrapper Components</Excluded_Packages>
+                </Excluded_Packages>
+            </Delphi.Personality>
+            <Platforms>
+                <Platform value="Win32">True</Platform>
+                <Platform value="Win64">True</Platform>
+            </Platforms>
+        </BorlandProject>
+        <ProjectFileVersion>12</ProjectFileVersion>
+    </ProjectExtensions>
+    <Import Project="$(BDS)\Bin\CodeGear.Delphi.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Delphi.Targets')"/>
+    <Import Project="$(APPDATA)\Embarcadero\$(BDSAPPDATABASEDIR)\$(PRODUCTVERSION)\UserTools.proj" Condition="Exists('$(APPDATA)\Embarcadero\$(BDSAPPDATABASEDIR)\$(PRODUCTVERSION)\UserTools.proj')"/>
+</Project>

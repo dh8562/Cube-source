@@ -1,0 +1,18 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Projects Include="QRoBOT.dproj" />
+  </ItemGroup>
+  <Target Name="QRoBOT">
+    <MSBuild Projects="QRoBOT.dproj" />
+  </Target>
+  <Target Name="Build">
+    <CallTarget Targets="QRoBOT" />
+  </Target>
+  <Target Name="Clean">
+    <MSBuild Projects="QRoBOT.dproj" Targets="Clean" />
+  </Target>
+  <Target Name="Make">
+    <MSBuild Projects="QRoBOT.dproj" Targets="Make" />
+  </Target>
+  <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')" />
+</Project>

@@ -1,0 +1,94 @@
+object frmLightChannel: TfrmLightChannel
+  Left = 0
+  Top = 0
+  Caption = 'frmLightChannel'
+  ClientHeight = 36
+  ClientWidth = 501
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object TrackBar: TcxTrackBar
+    AlignWithMargins = True
+    Left = 3
+    Top = 3
+    Align = alClient
+    Properties.Max = 100
+    Properties.ShowChangeButtons = True
+    Properties.ShowPositionHint = True
+    Properties.ShowTicks = False
+    Properties.OnChange = TrackBarPropertiesChange
+    TabOrder = 0
+    Height = 30
+    Width = 243
+  end
+  object SpinEdit: TcxSpinEdit
+    AlignWithMargins = True
+    Left = 252
+    Top = 3
+    Align = alRight
+    Properties.ImmediatePost = True
+    Properties.SpinButtons.Position = sbpHorzLeftRight
+    Properties.ValidationOptions = [evoShowErrorIcon]
+    Properties.OnChange = SpinEditPropertiesChange
+    TabOrder = 1
+    Width = 90
+  end
+  object btnPreset1: TcxButton
+    AlignWithMargins = True
+    Left = 348
+    Top = 3
+    Width = 33
+    Height = 30
+    Align = alRight
+    Caption = 'M1'
+    TabOrder = 2
+    OnClick = btnPreset1Click
+  end
+  object btnPreset2: TcxButton
+    AlignWithMargins = True
+    Left = 426
+    Top = 3
+    Width = 33
+    Height = 30
+    Align = alRight
+    Caption = 'M2'
+    TabOrder = 3
+    OnClick = btnPreset2Click
+  end
+  object btnSetPreset2: TcxButton
+    AlignWithMargins = True
+    Left = 465
+    Top = 3
+    Width = 33
+    Height = 30
+    Align = alRight
+    Caption = 'S2'
+    TabOrder = 4
+    OnClick = btnSetPreset2Click
+  end
+  object btnSetPreset1: TcxButton
+    AlignWithMargins = True
+    Left = 387
+    Top = 3
+    Width = 33
+    Height = 30
+    Align = alRight
+    Caption = 'S1'
+    TabOrder = 5
+    OnClick = btnSetPreset1Click
+  end
+  object tmrDelay: TTimer
+    Enabled = False
+    Interval = 300
+    OnTimer = tmrDelayTimer
+    Left = 172
+    Top = 4
+  end
+end

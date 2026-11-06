@@ -1,0 +1,117 @@
+<?xml version = "1.0" encoding="UTF-8"?>
+<TfoAlarms>
+
+<TfoAlarm>
+<Code>1001</Code>
+<Description>ERR_POWER_IS_OFF</Description>
+<Severity>0</Severity>
+<Notes>
+■ 발생원인
+  1. 설비 주 전원이 차단되었거나 전원 감시 입력이 OFF 상태입니다.
+  2. 전원 차단기, 전원 공급 배선 또는 전원 감시 신호에 이상이 있습니다.
+
+■ 조치사항
+  1. 설비의 입력 전원과 주 차단기 상태를 확인하십시오.
+  2. 전원 공급 배선 및 전원 감시 입력 신호를 점검한 후 설비에 전원을 공급하십시오.
+  3. 전원이 정상화된 후 알람을 해제하고 설비를 재가동하십시오.
+</Notes></TfoAlarm>
+
+<TfoAlarm>
+<Code>1002</Code>
+<Description>ERR_PIPE1_TEMP1</Description>
+<Severity>0</Severity>
+<Notes>
+■ 발생원인
+
+■ 조치사항
+</Notes></TfoAlarm>
+
+<TfoAlarm>
+<Code>4101</Code>
+<Description>ERR_PLC_POWER_LIFE_TIME_LOW</Description>
+<Severity>1</Severity>
+<Notes>
+■ 발생원인
+  1. PLC 전원 모듈의 수명 저하 신호가 발생했습니다.
+
+■ 조치사항
+  1. PLC 전원 모듈 상태와 교체 주기를 확인하십시오.
+</Notes></TfoAlarm>
+
+<TfoAlarm>
+<Code>4102</Code>
+<Description>ERR_SMPS01_BATTERY_LOW</Description>
+<Severity>1</Severity>
+<Notes>
+■ 발생원인
+  1. SMPS01 배터리 전압 저하 신호가 발생했습니다.
+
+■ 조치사항
+  1. SMPS01 배터리 상태를 확인하고 필요하면 교체하십시오.
+</Notes></TfoAlarm>
+
+<TfoAlarm>
+<Code>4103</Code>
+<Description>ERR_SMPS01_LIFE_TIME_LOW</Description>
+<Severity>1</Severity>
+<Notes>
+■ 발생원인
+  1. SMPS01 수명 저하 신호가 발생했습니다.
+
+■ 조치사항
+  1. SMPS01 상태와 사용 시간을 확인하고 교체를 준비하십시오.
+</Notes></TfoAlarm>
+
+<TfoAlarm>
+<Code>4104</Code>
+<Description>ERR_SMPS02_BATTERY_LOW</Description>
+<Severity>1</Severity>
+<Notes>
+■ 발생원인
+  1. SMPS02 배터리 전압 저하 신호가 발생했습니다.
+
+■ 조치사항
+  1. SMPS02 배터리 상태를 확인하고 필요하면 교체하십시오.
+</Notes></TfoAlarm>
+
+<TfoAlarm>
+<Code>4105</Code>
+<Description>ERR_SMPS02_LIFE_TIME_LOW</Description>
+<Severity>1</Severity>
+<Notes>
+■ 발생원인
+  1. SMPS02 수명 저하 신호가 발생했습니다.
+
+■ 조치사항
+  1. SMPS02 상태와 사용 시간을 확인하고 교체를 준비하십시오.
+</Notes></TfoAlarm>
+
+<TfoAlarm>
+<Code>4106</Code>
+<Description>ERR_DOOR_OPEN_01</Description>
+<Severity>1</Severity>
+<Notes>
+■ 발생원인
+  1. 제어반 Door 01 열림 신호가 발생했습니다.
+
+■ 조치사항
+  1. Door 01이 완전히 닫혔는지와 도어 센서를 확인하십시오.
+</Notes></TfoAlarm>
+
+<TfoAlarm>
+<Code>4107</Code>
+<Description>ERR_DTS_COMMUNICATION_LOST</Description>
+<Severity>0</Severity>
+<Notes>
+■ 발생원인
+  1. DTS Modbus TCP 서버와의 통신이 끊겼거나 응답 시간이 초과되었습니다.
+  2. 서버 프로그램 정지, 네트워크 단절 또는 TCP 포트 설정 불일치가 발생했습니다.
+
+■ 조치사항
+  1. DTS Modbus TCP 서버가 실행 중인지 확인하십시오.
+  2. 서버와 DTS의 IP 주소 및 TCP 포트가 동일한지 확인하십시오.
+  3. 네트워크 연결을 복구하면 알람이 자동으로 해제됩니다.
+</Notes></TfoAlarm>
+
+</TfoAlarms>
+

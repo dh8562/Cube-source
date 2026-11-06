@@ -1,0 +1,443 @@
+<TfoModbusPackets>
+
+  <TfoModbusPacket>
+    <Data>00</Data>
+    <Enabled>True</Enabled>
+    <FunctionCode>mfcReadHoldingRegisters</FunctionCode>
+    <GroupIndex>0</GroupIndex>
+    <Name>DTS1_01</Name>
+    <Quantity>100</Quantity>
+    <SlaveAddress>1</SlaveAddress>
+    <StartingAddress>5999</StartingAddress>
+  </TfoModbusPacket>
+
+  <TfoModbusPacket>
+    <Data>00</Data>
+    <Enabled>True</Enabled>
+    <FunctionCode>mfcReadHoldingRegisters</FunctionCode>
+    <GroupIndex>1</GroupIndex>
+    <Name>DTS1_02</Name>
+    <Quantity>100</Quantity>
+    <SlaveAddress>1</SlaveAddress>
+    <StartingAddress>6099</StartingAddress>
+  </TfoModbusPacket>
+
+  <TfoModbusPacket>
+    <Data>00</Data>
+    <Enabled>True</Enabled>
+    <FunctionCode>mfcReadHoldingRegisters</FunctionCode>
+    <GroupIndex>2</GroupIndex>
+    <Name>DTS1_03</Name>
+    <Quantity>100</Quantity>
+    <SlaveAddress>1</SlaveAddress>
+    <StartingAddress>6199</StartingAddress>
+  </TfoModbusPacket>
+
+  <TfoModbusPacket>
+    <Data>00</Data>
+    <Enabled>True</Enabled>
+    <FunctionCode>mfcReadHoldingRegisters</FunctionCode>
+    <GroupIndex>3</GroupIndex>
+    <Name>DTS1_04</Name>
+    <Quantity>100</Quantity>
+    <SlaveAddress>1</SlaveAddress>
+    <StartingAddress>6299</StartingAddress>
+  </TfoModbusPacket>
+
+  <TfoModbusPacket>
+    <Data>00</Data>
+    <Enabled>True</Enabled>
+    <FunctionCode>mfcReadHoldingRegisters</FunctionCode>
+    <GroupIndex>4</GroupIndex>
+    <Name>DTS1_05</Name>
+    <Quantity>100</Quantity>
+    <SlaveAddress>1</SlaveAddress>
+    <StartingAddress>6399</StartingAddress>
+  </TfoModbusPacket>
+
+  <TfoModbusPacket>
+    <Data>00</Data>
+    <Enabled>True</Enabled>
+    <FunctionCode>mfcReadHoldingRegisters</FunctionCode>
+    <GroupIndex>5</GroupIndex>
+    <Name>DTS1_06</Name>
+    <Quantity>100</Quantity>
+    <SlaveAddress>1</SlaveAddress>
+    <StartingAddress>6499</StartingAddress>
+  </TfoModbusPacket>
+
+  <TfoModbusPacket>
+    <Data>00</Data>
+    <Enabled>True</Enabled>
+    <FunctionCode>mfcReadHoldingRegisters</FunctionCode>
+    <GroupIndex>6</GroupIndex>
+    <Name>DTS1_07</Name>
+    <Quantity>100</Quantity>
+    <SlaveAddress>1</SlaveAddress>
+    <StartingAddress>6599</StartingAddress>
+  </TfoModbusPacket>
+
+  <TfoModbusPacket>
+    <Data>00</Data>
+    <Enabled>True</Enabled>
+    <FunctionCode>mfcReadHoldingRegisters</FunctionCode>
+    <GroupIndex>7</GroupIndex>
+    <Name>DTS1_08</Name>
+    <Quantity>100</Quantity>
+    <SlaveAddress>1</SlaveAddress>
+    <StartingAddress>6699</StartingAddress>
+  </TfoModbusPacket>
+
+  <TfoModbusPacket>
+    <Data>00</Data>
+    <Enabled>True</Enabled>
+    <FunctionCode>mfcReadHoldingRegisters</FunctionCode>
+    <GroupIndex>8</GroupIndex>
+    <Name>DTS1_09</Name>
+    <Quantity>100</Quantity>
+    <SlaveAddress>1</SlaveAddress>
+    <StartingAddress>6799</StartingAddress>
+  </TfoModbusPacket>
+
+  <TfoModbusPacket>
+    <Data>00</Data>
+    <Enabled>True</Enabled>
+    <FunctionCode>mfcReadHoldingRegisters</FunctionCode>
+    <GroupIndex>9</GroupIndex>
+    <Name>DTS1_10</Name>
+    <Quantity>100</Quantity>
+    <SlaveAddress>1</SlaveAddress>
+    <StartingAddress>6899</StartingAddress>
+  </TfoModbusPacket>
+
+  <TfoModbusPacket>
+    <Data>00</Data>
+    <Enabled>True</Enabled>
+    <FunctionCode>mfcReadHoldingRegisters</FunctionCode>
+    <GroupIndex>10</GroupIndex>
+    <Name>DTS1_11</Name>
+    <Quantity>100</Quantity>
+    <SlaveAddress>1</SlaveAddress>
+    <StartingAddress>6999</StartingAddress>
+  </TfoModbusPacket>
+
+  <TfoModbusPacket>
+    <Data>00</Data>
+    <Enabled>True</Enabled>
+    <FunctionCode>mfcReadHoldingRegisters</FunctionCode>
+    <GroupIndex>11</GroupIndex>
+    <Name>DTS1_12</Name>
+    <Quantity>100</Quantity>
+    <SlaveAddress>1</SlaveAddress>
+    <StartingAddress>7099</StartingAddress>
+  </TfoModbusPacket>
+
+  <TfoModbusPacket>
+    <Data>00</Data>
+    <Enabled>True</Enabled>
+    <FunctionCode>mfcReadHoldingRegisters</FunctionCode>
+    <GroupIndex>12</GroupIndex>
+    <Name>DTS1_13</Name>
+    <Quantity>100</Quantity>
+    <SlaveAddress>1</SlaveAddress>
+    <StartingAddress>7199</StartingAddress>
+  </TfoModbusPacket>
+
+  <TfoModbusPacket>
+    <Data>00</Data>
+    <Enabled>True</Enabled>
+    <FunctionCode>mfcReadHoldingRegisters</FunctionCode>
+    <GroupIndex>13</GroupIndex>
+    <Name>DTS1_14</Name>
+    <Quantity>100</Quantity>
+    <SlaveAddress>1</SlaveAddress>
+    <StartingAddress>7299</StartingAddress>
+  </TfoModbusPacket>
+
+  <TfoModbusPacket>
+    <Data>00</Data>
+    <Enabled>True</Enabled>
+    <FunctionCode>mfcReadHoldingRegisters</FunctionCode>
+    <GroupIndex>14</GroupIndex>
+    <Name>DTS1_15</Name>
+    <Quantity>100</Quantity>
+    <SlaveAddress>1</SlaveAddress>
+    <StartingAddress>7399</StartingAddress>
+  </TfoModbusPacket>
+
+  <TfoModbusPacket>
+    <Data>00</Data>
+    <Enabled>True</Enabled>
+    <FunctionCode>mfcReadHoldingRegisters</FunctionCode>
+    <GroupIndex>15</GroupIndex>
+    <Name>DTS1_16</Name>
+    <Quantity>100</Quantity>
+    <SlaveAddress>1</SlaveAddress>
+    <StartingAddress>7499</StartingAddress>
+  </TfoModbusPacket>
+
+  <TfoModbusPacket>
+    <Data>00</Data>
+    <Enabled>True</Enabled>
+    <FunctionCode>mfcReadHoldingRegisters</FunctionCode>
+    <GroupIndex>16</GroupIndex>
+    <Name>DTS1_17</Name>
+    <Quantity>100</Quantity>
+    <SlaveAddress>1</SlaveAddress>
+    <StartingAddress>7599</StartingAddress>
+  </TfoModbusPacket>
+
+  <TfoModbusPacket>
+    <Data>00</Data>
+    <Enabled>True</Enabled>
+    <FunctionCode>mfcReadHoldingRegisters</FunctionCode>
+    <GroupIndex>17</GroupIndex>
+    <Name>DTS1_18</Name>
+    <Quantity>100</Quantity>
+    <SlaveAddress>1</SlaveAddress>
+    <StartingAddress>7699</StartingAddress>
+  </TfoModbusPacket>
+
+  <TfoModbusPacket>
+    <Data>00</Data>
+    <Enabled>True</Enabled>
+    <FunctionCode>mfcReadHoldingRegisters</FunctionCode>
+    <GroupIndex>18</GroupIndex>
+    <Name>DTS1_19</Name>
+    <Quantity>100</Quantity>
+    <SlaveAddress>1</SlaveAddress>
+    <StartingAddress>7799</StartingAddress>
+  </TfoModbusPacket>
+
+  <TfoModbusPacket>
+    <Data>00</Data>
+    <Enabled>True</Enabled>
+    <FunctionCode>mfcReadHoldingRegisters</FunctionCode>
+    <GroupIndex>19</GroupIndex>
+    <Name>DTS1_20</Name>
+    <Quantity>100</Quantity>
+    <SlaveAddress>1</SlaveAddress>
+    <StartingAddress>7899</StartingAddress>
+  </TfoModbusPacket>
+
+  <TfoModbusPacket>
+    <Data>00</Data>
+    <Enabled>True</Enabled>
+    <FunctionCode>mfcReadHoldingRegisters</FunctionCode>
+    <GroupIndex>20</GroupIndex>
+    <Name>DTS2_01</Name>
+    <Quantity>100</Quantity>
+    <SlaveAddress>1</SlaveAddress>
+    <StartingAddress>7999</StartingAddress>
+  </TfoModbusPacket>
+
+  <TfoModbusPacket>
+    <Data>00</Data>
+    <Enabled>True</Enabled>
+    <FunctionCode>mfcReadHoldingRegisters</FunctionCode>
+    <GroupIndex>21</GroupIndex>
+    <Name>DTS2_02</Name>
+    <Quantity>100</Quantity>
+    <SlaveAddress>1</SlaveAddress>
+    <StartingAddress>8099</StartingAddress>
+  </TfoModbusPacket>
+
+  <TfoModbusPacket>
+    <Data>00</Data>
+    <Enabled>True</Enabled>
+    <FunctionCode>mfcReadHoldingRegisters</FunctionCode>
+    <GroupIndex>22</GroupIndex>
+    <Name>DTS2_03</Name>
+    <Quantity>100</Quantity>
+    <SlaveAddress>1</SlaveAddress>
+    <StartingAddress>8199</StartingAddress>
+  </TfoModbusPacket>
+
+  <TfoModbusPacket>
+    <Data>00</Data>
+    <Enabled>True</Enabled>
+    <FunctionCode>mfcReadHoldingRegisters</FunctionCode>
+    <GroupIndex>23</GroupIndex>
+    <Name>DTS2_04</Name>
+    <Quantity>100</Quantity>
+    <SlaveAddress>1</SlaveAddress>
+    <StartingAddress>8299</StartingAddress>
+  </TfoModbusPacket>
+
+  <TfoModbusPacket>
+    <Data>00</Data>
+    <Enabled>True</Enabled>
+    <FunctionCode>mfcReadHoldingRegisters</FunctionCode>
+    <GroupIndex>24</GroupIndex>
+    <Name>DTS2_05</Name>
+    <Quantity>100</Quantity>
+    <SlaveAddress>1</SlaveAddress>
+    <StartingAddress>8399</StartingAddress>
+  </TfoModbusPacket>
+
+  <TfoModbusPacket>
+    <Data>00</Data>
+    <Enabled>True</Enabled>
+    <FunctionCode>mfcReadHoldingRegisters</FunctionCode>
+    <GroupIndex>25</GroupIndex>
+    <Name>DTS2_06</Name>
+    <Quantity>100</Quantity>
+    <SlaveAddress>1</SlaveAddress>
+    <StartingAddress>8499</StartingAddress>
+  </TfoModbusPacket>
+
+  <TfoModbusPacket>
+    <Data>00</Data>
+    <Enabled>True</Enabled>
+    <FunctionCode>mfcReadHoldingRegisters</FunctionCode>
+    <GroupIndex>26</GroupIndex>
+    <Name>DTS2_07</Name>
+    <Quantity>100</Quantity>
+    <SlaveAddress>1</SlaveAddress>
+    <StartingAddress>8599</StartingAddress>
+  </TfoModbusPacket>
+
+  <TfoModbusPacket>
+    <Data>00</Data>
+    <Enabled>True</Enabled>
+    <FunctionCode>mfcReadHoldingRegisters</FunctionCode>
+    <GroupIndex>27</GroupIndex>
+    <Name>DTS2_08</Name>
+    <Quantity>100</Quantity>
+    <SlaveAddress>1</SlaveAddress>
+    <StartingAddress>8699</StartingAddress>
+  </TfoModbusPacket>
+
+  <TfoModbusPacket>
+    <Data>00</Data>
+    <Enabled>True</Enabled>
+    <FunctionCode>mfcReadHoldingRegisters</FunctionCode>
+    <GroupIndex>28</GroupIndex>
+    <Name>DTS2_09</Name>
+    <Quantity>100</Quantity>
+    <SlaveAddress>1</SlaveAddress>
+    <StartingAddress>8799</StartingAddress>
+  </TfoModbusPacket>
+
+  <TfoModbusPacket>
+    <Data>00</Data>
+    <Enabled>True</Enabled>
+    <FunctionCode>mfcReadHoldingRegisters</FunctionCode>
+    <GroupIndex>29</GroupIndex>
+    <Name>DTS2_10</Name>
+    <Quantity>100</Quantity>
+    <SlaveAddress>1</SlaveAddress>
+    <StartingAddress>8899</StartingAddress>
+  </TfoModbusPacket>
+
+  <TfoModbusPacket>
+    <Data>00</Data>
+    <Enabled>True</Enabled>
+    <FunctionCode>mfcReadHoldingRegisters</FunctionCode>
+    <GroupIndex>30</GroupIndex>
+    <Name>DTS2_11</Name>
+    <Quantity>100</Quantity>
+    <SlaveAddress>1</SlaveAddress>
+    <StartingAddress>8999</StartingAddress>
+  </TfoModbusPacket>
+
+  <TfoModbusPacket>
+    <Data>00</Data>
+    <Enabled>True</Enabled>
+    <FunctionCode>mfcReadHoldingRegisters</FunctionCode>
+    <GroupIndex>31</GroupIndex>
+    <Name>DTS2_12</Name>
+    <Quantity>100</Quantity>
+    <SlaveAddress>1</SlaveAddress>
+    <StartingAddress>9099</StartingAddress>
+  </TfoModbusPacket>
+
+  <TfoModbusPacket>
+    <Data>00</Data>
+    <Enabled>True</Enabled>
+    <FunctionCode>mfcReadHoldingRegisters</FunctionCode>
+    <GroupIndex>32</GroupIndex>
+    <Name>DTS2_13</Name>
+    <Quantity>100</Quantity>
+    <SlaveAddress>1</SlaveAddress>
+    <StartingAddress>9199</StartingAddress>
+  </TfoModbusPacket>
+
+  <TfoModbusPacket>
+    <Data>00</Data>
+    <Enabled>True</Enabled>
+    <FunctionCode>mfcReadHoldingRegisters</FunctionCode>
+    <GroupIndex>33</GroupIndex>
+    <Name>DTS2_14</Name>
+    <Quantity>100</Quantity>
+    <SlaveAddress>1</SlaveAddress>
+    <StartingAddress>9299</StartingAddress>
+  </TfoModbusPacket>
+
+  <TfoModbusPacket>
+    <Data>00</Data>
+    <Enabled>True</Enabled>
+    <FunctionCode>mfcReadHoldingRegisters</FunctionCode>
+    <GroupIndex>34</GroupIndex>
+    <Name>DTS2_15</Name>
+    <Quantity>100</Quantity>
+    <SlaveAddress>1</SlaveAddress>
+    <StartingAddress>9399</StartingAddress>
+  </TfoModbusPacket>
+
+  <TfoModbusPacket>
+    <Data>00</Data>
+    <Enabled>True</Enabled>
+    <FunctionCode>mfcReadHoldingRegisters</FunctionCode>
+    <GroupIndex>35</GroupIndex>
+    <Name>DTS2_16</Name>
+    <Quantity>100</Quantity>
+    <SlaveAddress>1</SlaveAddress>
+    <StartingAddress>9499</StartingAddress>
+  </TfoModbusPacket>
+
+  <TfoModbusPacket>
+    <Data>00</Data>
+    <Enabled>True</Enabled>
+    <FunctionCode>mfcReadHoldingRegisters</FunctionCode>
+    <GroupIndex>36</GroupIndex>
+    <Name>DTS2_17</Name>
+    <Quantity>100</Quantity>
+    <SlaveAddress>1</SlaveAddress>
+    <StartingAddress>9599</StartingAddress>
+  </TfoModbusPacket>
+
+  <TfoModbusPacket>
+    <Data>00</Data>
+    <Enabled>True</Enabled>
+    <FunctionCode>mfcReadHoldingRegisters</FunctionCode>
+    <GroupIndex>37</GroupIndex>
+    <Name>DTS2_18</Name>
+    <Quantity>100</Quantity>
+    <SlaveAddress>1</SlaveAddress>
+    <StartingAddress>9699</StartingAddress>
+  </TfoModbusPacket>
+
+  <TfoModbusPacket>
+    <Data>00</Data>
+    <Enabled>True</Enabled>
+    <FunctionCode>mfcReadHoldingRegisters</FunctionCode>
+    <GroupIndex>38</GroupIndex>
+    <Name>DTS2_19</Name>
+    <Quantity>100</Quantity>
+    <SlaveAddress>1</SlaveAddress>
+    <StartingAddress>9799</StartingAddress>
+  </TfoModbusPacket>
+
+  <TfoModbusPacket>
+    <Data>00</Data>
+    <Enabled>True</Enabled>
+    <FunctionCode>mfcReadHoldingRegisters</FunctionCode>
+    <GroupIndex>39</GroupIndex>
+    <Name>DTS2_20</Name>
+    <Quantity>100</Quantity>
+    <SlaveAddress>1</SlaveAddress>
+    <StartingAddress>9899</StartingAddress>
+  </TfoModbusPacket>
+
+</TfoModbusPackets>

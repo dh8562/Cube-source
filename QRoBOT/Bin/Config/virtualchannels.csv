@@ -1,0 +1,36 @@
+TfoChannels
+AccessPath,Action,Address,Address2,BrowseInfo,Category,ChannelKind,DataType,Device,ErrorCode,InvertBoolean,Max,Min,Name,PercentDeadBand,Permission,PrecisionDigits,ScaledMax,ScaledMin,Tag,Value,ZDescription
+
+"","","-1","-1","-1","Status System","ckVirtual","dtString","","-1","False","0","0","SYS_STATUS_CAPTION","0","cpReadWrite","0","0","0","0","",""
+"","","-1","-1","-1","Status System","ckVirtual","dtString","","-1","False","0","0","SYS_STATUS_CAPTION_LCD","0","cpReadWrite","0","0","0","0","",""
+"","","-1","-1","-1","Status System","ckVirtual","dtString","","-1","False","0","0","SYS_MESSAGE_CAPTION","0","cpReadWrite","0","0","0","0","",""
+"","","-1","-1","-1","Status System","ckVirtual","dtString","","-1","False","0","0","ACTIVE_JOB","0","cpReadWrite","0","0","0","0","",""
+
+"","","-1","-1","-1","Status System","ckVirtual","dtDouble","","-1","False","0","0","CYCLE_TIME_AVG","0","cpReadWrite","0","0","0","0","0",""
+"","","-1","-1","-1","Status System","ckVirtual","dtDouble","","-1","False","0","0","CYCLE_TIME_CURRENT","0","cpReadWrite","0","0","0","0","0",""
+"","","-1","-1","-1","Status System","ckVirtual","dtDouble","","-1","False","0","0","CYCLE_TIME_UPH","0","cpReadWrite","0","0","0","0","0",""
+"","","-1","-1","-1","Status System","ckVirtual","dtInteger","","-1","False","0","0","AUTO_RUN_TYPE","0","cpReadWrite","0","0","0","0","0","0 : NORMAL RUN, 1 : TEST, 2 : CALIBRATE, 3 : MAINTENANCE, 4 : R&R"
+"","","-1","-1","-1","Status System","ckVirtual","dtString","","-1","False","0","0","AUTO_RUN_TYPE_CAPTION","0","cpReadWrite","0","0","0","0","NORMAL RUN","0 : NORMAL RUN, 1 : TEST, 2 : CALIBRATE, 3 : MAINTENANCE, 4 : R&R"
+
+"","","-1","-1","-1","System Status","ckVirtual","dtBoolean","","-1","False","0","0","DTS_CONNECTED","0","cpReadWrite","0","0","0","0","False",""
+
+; DTS monitoring status indicators
+"","","-1","-1","-1","DTS Monitoring","ckVirtual","dtBoolean","","-1","False","0","0","DTS_HIGH_TEMPERATURE_ALARM","0","cpReadWrite","0","0","0","0","False","Upper temperature alarm status"
+"","","-1","-1","-1","DTS Monitoring","ckVirtual","dtBoolean","","-1","False","0","0","DTS_RAPID_TEMPERATURE_RISE_ALARM","0","cpReadWrite","0","0","0","0","False","Rapid temperature rise alarm status"
+"","","-1","-1","-1","DTS Monitoring","ckVirtual","dtBoolean","","-1","False","0","0","DTS_DELTA_TEMPERATURE_ALARM","0","cpReadWrite","0","0","0","0","False","Delta temperature alarm status"
+"","","-1","-1","-1","DTS Monitoring","ckVirtual","dtBoolean","","-1","False","0","0","DTS_OPTICAL_SHORT_ALARM","0","cpReadWrite","0","0","0","0","False","Optical short circuit alarm status"
+"","","-1","-1","-1","DTS Monitoring","ckVirtual","dtBoolean","","-1","False","0","0","DTS_NETWORK_STATUS","0","cpReadWrite","0","0","0","0","False","DTS network connection status"
+
+; Pipe temperature display sample channels
+"","","-1","-1","-1","DTS Pipe Monitoring","ckVirtual","dtDouble","","-1","False","100","-50","PIPE_001_TEMPERATURE","0","cpReadWrite","1","100","-50","0","25.0","PIPE-001 current temperature (degree C)"
+"","","-1","-1","-1","DTS Pipe Monitoring","ckVirtual","dtDouble","","-1","False","100","0","PIPE_001_POSITION","0","cpReadWrite","1","100","0","0","0.0","PIPE-001 measurement position (m)"
+"","","-1","-1","-1","DTS Pipe Monitoring","ckVirtual","dtDouble","","-1","False","100","-50","PIPE_002_TEMPERATURE","0","cpReadWrite","1","100","-50","0","25.0","PIPE-002 current temperature (degree C)"
+"","","-1","-1","-1","DTS Pipe Monitoring","ckVirtual","dtDouble","","-1","False","100","0","PIPE_002_POSITION","0","cpReadWrite","1","100","0","0","0.0","PIPE-002 measurement position (m)"
+
+
+; Blink
+"","","-1","-1","-1","System Status","ckVirtual","dtBoolean","","-1","False","0","0","BLINK_SW","0","cpReadWrite","0","0","0","0","False",""
+"","","-1","-1","-1","System Status","ckVirtual","dtBoolean","","-1","False","0","0","BLINK_EMG_STOP","0","cpReadWrite","0","0","0","0","False",""
+
+
+

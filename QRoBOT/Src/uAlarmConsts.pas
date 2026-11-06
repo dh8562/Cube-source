@@ -1,0 +1,27 @@
+﻿unit uAlarmConsts;
+
+interface
+
+{$I uGeneratedAlarmConsts.inc}
+
+const
+  ERR_POWER_IS_OFF = 1001;
+
+  ERR_PLC_POWER_LIFE_TIME_LOW = 4101;
+  ERR_SMPS01_BATTERY_LOW = 4102;
+  ERR_SMPS01_LIFE_TIME_LOW = 4103;
+  ERR_SMPS02_BATTERY_LOW = 4104;
+  ERR_SMPS02_LIFE_TIME_LOW = 4105;
+  ERR_DOOR_OPEN_01 = 4106;
+  ERR_DTS_COMMUNICATION_LOST = 4107;
+
+  MAX_ALARM_CODE = 100000;
+
+
+implementation
+
+end.
+
+
+
+

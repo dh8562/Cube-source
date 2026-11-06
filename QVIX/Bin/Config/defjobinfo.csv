@@ -1,0 +1,6 @@
+TfoChannels
+AccessPath,Action,Address,Address2,BrowseInfo,Category,ChannelKind,DataType,DeadBand,DeadBandType,Device,ErrorCode,InvertBoolean,Max,Min,Name,PercentDeadBand,Permission,PrecisionDigits,ScaledMax,ScaledMin,Tag,Value,ZDescription
+
+"","","-1","-1","-1","Project","ckVirtual","dtString","0","dbtNone","","-1","False","0","0","PEN_FILE_NAME","0","cpReadWrite","0","0","0","0","",""
+"","","-1","-1","-1","Project","ckVirtual","dtString","0","dbtNone","","-1","False","0","0","MAP_FILE_NAME","0","cpReadWrite","0","0","0","0","",""
+
